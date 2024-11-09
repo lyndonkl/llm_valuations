@@ -48,9 +48,6 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Docker
-docker-compose.override.yml
-
 # Database
 *.sqlite
 *.sqlite3
@@ -75,3 +72,5 @@ postgres-data/
 
 # Environment variables
 .env
+.env.*
+!.env.example
